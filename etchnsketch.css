@@ -1,0 +1,41 @@
+h1{
+    text-align:center;
+    
+}
+#container{
+    height: 80vh;
+    width: 80vh;
+    border: 5px black;
+    border-style: solid;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 10%;
+}
+
+#settings{
+    margin:0 auto;
+}
+#reset{
+    margin-left: 0 auto;
+    
+}
+button{
+    /* display: inline-block; */
+    border-radius: 8%;
+    border: 1px black solid;
+    padding: 2em;
+    float: left;    
+    
+}
+
+.item{
+    flex: 1 1;
+    box-sizing:border-box;
+    border: 1px rgba(152, 148, 148, 0.243);
+    border-style: solid;
+}
+/* 
+.item:hover{
+    background-color: blue;
+} */
